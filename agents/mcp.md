@@ -75,7 +75,7 @@ Read-only catalog and quote tools do not publish a deal and do not sign.
 
 ### Baskets
 
-A basket is a proposal, not an order. `propose_basket` uses the catalog already loaded. `propose_basket_live` refreshes it and is the premium path. Neither returns a transaction. `prepare_basket_transactions` builds the unsigned legs (approve, swap, then the Digihub.li Genossenschaft interface-fee transfer when that route charges one) and simulates each leg.
+A basket is a proposal, not an order. `propose_basket` uses the catalog already loaded. `propose_basket_live` refreshes it and is the premium path. Neither returns a transaction. `prepare_basket_transactions` builds the unsigned legs (approve, swap, then the 5% interface-fee transfer when that route charges one) and simulates each leg. The interface fee goes to the Digihub.li Genossenschaft.
 
 | Tool | What it does | Key inputs |
 | --- | --- | --- |
