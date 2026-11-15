@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>API Reference | Investhub Docs</title>
+  <link rel="canonical" href="https://docs.investhub.org/api/" />
+  
+  <link rel="icon" href="/favicon.png" />
+</head>
+<body>
+  <noscript>This page needs JavaScript. The raw spec is at <a href="/openapi.yaml">/openapi.yaml</a>.</noscript>
+  <div id="app"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.76"></script>
+  <script>
+    Scalar.createApiReference('#app', {
+      url: '/openapi.yaml',
+      hideDownloadButton: false,
+      metaData: { title: 'Investhub API Reference' },
+    })
+  </script>
+</body>
+</html>
