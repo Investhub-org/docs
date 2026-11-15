@@ -15,6 +15,7 @@ export const llmsLinks: LlmsLink[] = [
   { title: 'OpenAPI spec', href: 'https://docs.investhub.org/openapi.yaml' },
   { title: 'Agents & MCP', href: 'https://docs.investhub.org/agents/mcp.md' },
   { title: 'x402 (paid agent calls)', href: 'https://docs.investhub.org/agents/x402.md' },
+  { title: 'Governance on-chain', href: 'https://docs.investhub.org/governance.md' },
 ]
 
 export function renderLlmsTxt(links: LlmsLink[] = llmsLinks): string {

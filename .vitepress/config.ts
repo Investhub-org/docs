@@ -126,6 +126,7 @@ export default defineConfig({
       { text: 'Guides', link: '/guides/' },
       { text: 'API Reference', link: '/api/', target: '_self' },
       { text: 'Agents', link: '/agents/mcp' },
+      { text: 'Governance', link: '/governance/' },
       { text: 'investhub.io', link: 'https://investhub.io' },
     ],
     sidebar: [
@@ -155,6 +156,7 @@ export default defineConfig({
           { text: 'x402 (paid agent calls)', link: '/agents/x402' },
         ],
       },
+      { text: 'Governance on-chain', link: '/governance/', collapsed: false },
     ],
     search: { provider: 'local' },
     outline: [2, 3],

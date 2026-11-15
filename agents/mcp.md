@@ -32,7 +32,7 @@ TODO: publish the production Worker URL. Until that URL is written here, use onl
 }
 ```
 
-Which calls are free, and which are premium with a price still to be published, is on [x402 (paid agent calls)](/agents/x402).
+Which calls are free, and which are premium with a price still to be published, is on [x402 (paid agent calls)](/agents/x402). Issuers who deploy their own Governor, timelock, and dividend contracts should read [Governance on-chain](/governance/).
 
 ## Tools
 
