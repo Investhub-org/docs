@@ -32,6 +32,8 @@ TODO: publish the production Worker URL. Until that URL is written here, use onl
 }
 ```
 
+Which calls are free, and which are premium with a price still to be published, is on [x402 (paid agent calls)](/agents/x402).
+
 ## Tools
 
 Inputs below are the key fields. Wallet fields are the address that will sign. They are not a private key.

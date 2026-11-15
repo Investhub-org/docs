@@ -150,7 +150,10 @@ export default defineConfig({
       {
         text: 'Agents',
         collapsed: false,
-        items: [{ text: 'Agents & MCP', link: '/agents/mcp' }],
+        items: [
+          { text: 'Agents & MCP', link: '/agents/mcp' },
+          { text: 'x402 (paid agent calls)', link: '/agents/x402' },
+        ],
       },
     ],
     search: { provider: 'local' },
