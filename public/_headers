@@ -1,0 +1,11 @@
+# Match the content types served by docs.investhub.org.
+/openapi.yaml
+  Content-Type: text/yaml; charset=utf-8
+
+/*.md
+  Content-Type: text/markdown; charset=utf-8
+
+/*
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

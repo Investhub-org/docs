@@ -1,0 +1,28 @@
+# Old API overview pages now open the Scalar reference at the matching tag.
+# Lines that start with # are comments. A # inside a destination is a fragment.
+/overview/auth /api/#api-1/tag/auth 301
+/overview/opportunities /api/#api-1/tag/opportunities 301
+/overview/investments /api/#api-1/tag/investments 301
+/overview/kyc /api/#api-1/tag/kyc 301
+/overview/company /api/#api-1/tag/company 301
+/overview/incorporate /api/#api-1/tag/incorporate 301
+/overview/manage-expenses /api/#api-1/tag/manage-expenses 301
+/overview/manage-accounts /api/#api-1/tag/manage-accounts 301
+/overview/manage-branches /api/#api-1/tag/manage-branches 301
+/overview/manage-cards /api/#api-1/tag/manage-cards 301
+/overview/manage-categories /api/#api-1/tag/manage-categories 301
+/overview/manage-groups /api/#api-1/tag/manage-groups 301
+/overview/manage-contacts /api/#api-1/tag/manage-contacts 301
+/overview/manage-tax /api/#api-1/tag/manage-tax 301
+/overview/manage-users /api/#api-1/tag/manage-users 301
+/overview/manage /api/#api-1/tag/manage 301
+/overview/manage-xero /api/#api-1/tag/manage-xero 301
+/overview/wallets /api/#api-1/tag/wallets 301
+/overview/portfolio /api/#api-1/tag/portfolio 301
+/overview/payments /api/#api-1/tag/payments 301
+/overview/security /api/#api-1/tag/security 301
+/overview/documents /api/#api-1/tag/documents 301
+/overview/utility /api/#api-1/tag/utility 301
+/overview/tenants /api/#api-1/tag/tenants 301
+/overview/models /api/#api-1/models 301
+/readme / 301
