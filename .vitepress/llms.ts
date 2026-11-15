@@ -13,6 +13,7 @@ export const llmsLinks: LlmsLink[] = [
   { title: 'API Reference', href: 'https://docs.investhub.org/overview.md' },
   { title: 'Guides', href: 'https://docs.investhub.org/guides.md' },
   { title: 'OpenAPI spec', href: 'https://docs.investhub.org/openapi.yaml' },
+  { title: 'Agents & MCP', href: 'https://docs.investhub.org/agents/mcp.md' },
 ]
 
 export function renderLlmsTxt(links: LlmsLink[] = llmsLinks): string {

@@ -125,6 +125,7 @@ export default defineConfig({
     nav: [
       { text: 'Guides', link: '/guides/' },
       { text: 'API Reference', link: '/api/', target: '_self' },
+      { text: 'Agents', link: '/agents/mcp' },
       { text: 'investhub.io', link: 'https://investhub.io' },
     ],
     sidebar: [
@@ -145,6 +146,11 @@ export default defineConfig({
           { text: 'White-Label Tenants', link: '/guides/white-label' },
           { text: 'Liquidation Management', link: '/guides/liquidation' },
         ],
+      },
+      {
+        text: 'Agents',
+        collapsed: false,
+        items: [{ text: 'Agents & MCP', link: '/agents/mcp' }],
       },
     ],
     search: { provider: 'local' },
